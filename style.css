@@ -1,0 +1,103 @@
+body {		
+	background-color: rgb(246,242,175);
+	color : rgb(123,57,51);			
+	font-family: 'Roboto', sans-serif;;	
+	font-size : 16px;
+	font-weight : 100;
+	line-height : 1;
+}	
+
+h1 {		
+	color: rgb(84,47,49));		
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-weight : 400;
+	line-height : 1.5;
+}	
+
+h2 {		
+	color: rgb(84,47,49);		
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+	font-weight : 400; 
+	line-height : 1.5;
+}
+
+a,ol {text-decoration: none;
+	color: rgb(123,57,51);
+	font-family : 'Roboto', sans-serif;	
+	font-size : 16px;
+	font-weight : 100;
+transition: color 0.3s ease;
+}
+
+a:hover {
+  color: rgb(123,57,51);
+  text-decoration: none;
+}
+
+.container {
+	width: 700px;
+	margin: 10px auto;
+	background: rgb(246,242,175)}
+
+	@media (max-width: 760px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 60px;
+	margin: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-beige {
+	background-color:  rgb(246,242,175);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-beige:hover {
+	background-color: black;
+	color: white; 
+}
+
+.list-inline {
+	list-style : none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(84,47,49);
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
